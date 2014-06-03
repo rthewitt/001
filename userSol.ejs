@@ -1,0 +1,10 @@
+var someGlobal = require('./config');
+
+(function(glob) {
+var predefVar = null;
+
+<%- user.solution %>
+
+})(someGlobal)
+
+module.exports = someGlobal;
